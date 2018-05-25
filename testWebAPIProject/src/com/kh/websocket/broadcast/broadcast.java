@@ -11,7 +11,7 @@ import javax.websocket.OnMessage;
 import javax.websocket.OnOpen;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
-
+//asdfasd
 @ServerEndpoint("/broadcast")
 public class broadcast {
 	// 연결한 사용자 리스트, 단 한사용자가 2번 연결하면 안되기 때문에 Set을 통해 연결 정보에 대한 중복을 배재한다. 
